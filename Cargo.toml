@@ -39,13 +39,8 @@ actix_derive = "0.3"
 # io
 bytes = "0.4"
 futures = "0.1"
-tokio = "0.1.7"
-tokio-io = "0.1"
-tokio-codec = "0.1"
-tokio-executor = "0.1"
-tokio-reactor = "0.1"
-tokio-tcp = "0.1"
-tokio-timer = "0.2"
+tokio = "0.1.11"
+tokio-timer = "0.2.7"
 
 # other
 log = "0.4"
@@ -58,7 +53,7 @@ parking_lot = "0.6"
 uuid = { version = "0.7", features = ["v4"] }
 
 # signal handling
-tokio-signal = { version = "0.2", optional = true }
+tokio-signal = { version = "0.2.5", optional = true }
 
 # dns resolver
 trust-dns-resolver = { version = "0.9", optional = true }

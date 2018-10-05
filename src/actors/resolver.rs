@@ -49,7 +49,7 @@ use self::trust_dns_resolver::config::{ResolverConfig, ResolverOpts};
 use self::trust_dns_resolver::lookup_ip::LookupIpFuture;
 use self::trust_dns_resolver::ResolverFuture;
 use futures::{Async, Future, Poll};
-use tokio_tcp::{ConnectFuture, TcpStream};
+use tokio::net::tcp::{ConnectFuture, TcpStream};
 use tokio_timer::Delay;
 
 use clock;

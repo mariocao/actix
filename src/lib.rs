@@ -44,11 +44,6 @@ extern crate bitflags;
 #[macro_use]
 extern crate futures;
 extern crate tokio;
-extern crate tokio_codec;
-extern crate tokio_executor;
-extern crate tokio_io;
-extern crate tokio_reactor;
-extern crate tokio_tcp;
 extern crate tokio_timer;
 
 #[macro_use]

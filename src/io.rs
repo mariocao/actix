@@ -5,8 +5,8 @@ use std::rc::Rc;
 
 use bytes::BytesMut;
 use futures::{task, Async, Poll};
-use tokio_codec::Encoder;
-use tokio_io::AsyncWrite;
+use tokio::codec::Encoder;
+use tokio::io::AsyncWrite;
 
 use actor::{Actor, ActorContext, AsyncContext, Running, SpawnHandle};
 use fut::ActorFuture;
